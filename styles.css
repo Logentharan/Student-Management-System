@@ -1,0 +1,17 @@
+.gradient-bg {
+    background: linear-gradient(135deg, #4f46e5 0%, #8b5cf6 100%);
+}
+.card-shadow {
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+}
+.input-field:focus {
+    outline: none;
+    border-color: #8b5cf6;
+}
+.fade-in {
+    animation: fadeIn 0.5s;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
