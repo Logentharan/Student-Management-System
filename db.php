@@ -1,9 +1,9 @@
 <?php
 session_start();
-$host = 'localhost';
-$dbname = 'students_db';
-$username = 'root';
-$password = '';
+$host = 'studentserver-unitar.database.windows.net';
+$dbname = 'StudentDB';
+$username = 'studentserver';
+$password = 'Server123';
 
 try {
     // First, try to connect to MySQL without specifying the database
